@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login page let`s gossip</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript">
+		function signinCheck(){
+			window.open("postpage.html");
+		}
+	</script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container">
+    			<div class="navbar-header"></div>
+    				<ul class="nav navbar-nav navbar-right">
+				      <li>
+				      	<a class=" active" href="signup.html#container-fluid"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+				      </li>
+				    </ul>
+  			</div>
+		</nav>	
+
+	    <div class="row">
+	    	<div class="col-sm-4"></div>
+	    	<div class="col-sm-8">
+	    		<form id="loginbox">
+	    			<h1 class="header" align="center">Let`s Gossip</h1> <br>
+	    			<label>Email</label> 
+	    			<input type="text" id="email" class="form-control" name="email" placeholder="Email Address"><br>
+						<label>Password</label>  
+					<input type="password" id="pwd" class="form-control" name="password" placeholder="Password"><br>
+
+					<div align="center"><button onclick="signinCheck();"><b>SIGN IN</b></button></div><br>
+					<div class="recover" align="center">Have you lost your password ?? <br> Recover <a style  ="color: #ffff66;"  href="../forgotpwd/forgot.html#outer-div"> <b><i>Here</i></b></a>
+					</div>	
+	    		</form>
+	    	</div>
+	    </div>
+		
+	</div>
+</body>
+</html>
